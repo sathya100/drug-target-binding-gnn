@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files (optional — comment out if you want to push checkpoint)
+# results/dta_model.pt
+
+# Generator scripts (internal use only)
+docs/generate_arch_diagram.py
+docs/generate_ieee_report.py
+train_and_embed.py
